@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--CSS-->
+<link rel="stylesheet" href="style.css">
+<!--Animation-->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+<!--font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+
+
+
+    <title>Portafolio / Fernanda</title>
+</head>
+<body>
+<!--navigation menu section-->
+    <nav>
+    <h1>Fernanda Sanchez</h1>
+
+    <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+
+    <button class="burger-menu" id="burguer-menu">
+        <ion-icon class="bars"name="menu-online">
+        </ion-icon>
+    </button>
+    </nav>
+
+<!--Hero-->
+    <section class="hero" id="about">
+        <img src="assets\images\yo.jpeg" alt="Yo" class="hero-img">
+    <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">Me llamo Fernanda Sánchez, futura Ingeniera en Tecnologías de la Información, me emociona la programación principalmente fronted, la gestión de base de datos y programación para dispositivos moviles.</p>
+    </div>
+    </section>
+
+<!--More about-->
+    <section class="more-about">
+    <h2>More about me</h2>
+        <p>Soy Fernanda Sanchez, actualmente estudiante de la Ingeniería en Tecnologías de la Información y Comunicación (TICs) en el Instituto Tecnológico Apizaco en Tlaxcala, México. Me emociona la tecnología, la programación y la innovación, me enfoco en desarrollar soluciones que mejoren la eficiencia de los sistemas informáticos. Mi formación académica y autodidacta me ha brindado las herramientas necesarias para enfrentar retos tecnológicos con creatividad, análisis y habilidades prácticas, preparándome para contribuir de manera significativa en proyectos de software y desarrollo de aplicaciones.</p>
+
+        <p>A lo largo de mi vida, he adquirido experiencia en diferentes lenguajes de programación como Python, JavaScript, C++, PHP y Android studio así como en la gestión de bases de datos con MySQL. También tengo conocimiento en áreas de redes de comunicación y desarrollo web, donde destaco por mi capacidad para implementar soluciones eficientes.</p>
+        
+        <p>Mi objetivo es seguir ampliando mis conocimientos en el campo de las TICs, especializándome en áreas clave como inteligencia artificial, ciencia de datos y desarrollo de software. Me ilusiona la idea de trabajar en proyectos colaborativos donde pueda aplicar mis habilidades técnicas y aprender de profesionales experimentados. A largo plazo, busco desarrollarme como un ingeniero en TICs que pueda liderar proyectos de alto impacto, integrando tecnología y soluciones innovadoras que generen valor tanto a nivel empresarial como social.</p>
+    </section>
+
+<!--Skills section-->
+    <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+    <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+            <img src="assets\icons\icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card">
+
+            <img src="assets\icons\icons8-css3.svg" alt="" loading="lazy" class="icon icon-card">
+
+            <img src="assets\icons\icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card">
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+            <img src="assets\icons\icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card">
+
+            <img src="assets\icons\icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card">
+
+            <img src="assets\icons\icons8-git.svg" alt="" loading="lazy" class="icon icon-card">
+        </div>              
+    </div> 
+
+    
+    </section>
+
+<!--Projects section-->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="assets\images\pinterest_copia.jpg" alt="expense-tracker" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Interfaz Pinterest</h3>
+        <p class="project-details">
+          Este projecto es una copia de la interfaz de inicio de Pinterest,
+          creado unicamente con CSS3 y HTML5
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img src="assets\images\pinterest_copia.jpg" alt="netflic-clone" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Interfaz Pinterest</h3>
+        <p class="project-details">
+          Este projecto es una copia de la interfaz de inicio de Pinterest,
+          creado unicamente con CSS3 y HTML5
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+
+      <div class="project-container project-card">
+        <img src="assets\images\pinterest_copia.jpg" alt="greeny-earth" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Interfaz Pinteresth</h3>
+        <p class="project-details">
+          Este projecto es una copia de la interfaz de inicio de Pinterest,
+          creado unicamente con CSS3 y HTML5
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
+  </section>
+<!--Scroll button-->
+  <i class="scroll-up">
+    <img src="assets\icons\icons8-upward-arrow.gif" id="scroll-up" class="socicon up-arrow" alt="scroll up">
+  </i>
+  <footer>
+    <p>Built with {} by Fernanda Sanchez</p>
+  </footer>
+  <!--JavaScript link-->
+  <script src="app.js"></script>
+</body>
+</html>
